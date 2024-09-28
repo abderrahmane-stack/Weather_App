@@ -1,0 +1,39 @@
+/* styles/Home.module.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Make sure body and html fill the viewport */
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/bk.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+  
+  
+
+  background-color: rgb(31, 88, 84);
+  font-family: Arial, sans-serif;
+}
+
+:global(form) {
+  margin: 20px;
+}
+
+:global(input) {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+:global(button) {
+  padding: 10px;
+}
