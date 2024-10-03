@@ -1,9 +1,8 @@
-/* styles/Home.module.css */
 
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%; /* Make sure body and html fill the viewport */
+  height: 100%; 
   width: 100%;
   font-family: Arial, sans-serif;
 }
@@ -23,6 +22,13 @@ body {
 
   background-color: rgb(31, 88, 84);
   font-family: Arial, sans-serif;
+}
+@media (max-width: 768px) {
+  body{
+    height: auto;
+    overflow: visible;
+    
+  }
 }
 
 :global(form) {
